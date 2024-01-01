@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.Addtask-btn {
+    width: 10vw;
+    color: #3659E2;
+    border: none;
+}
+
+.Addtask-btn button {
+    background-color: #EBEEFC;
+}
+
+.modal {
+    margin: 1vh 2vw;
+}
+
+.vertical-line {
+    width: 100%;
+    background-color: #D8E0FD;
+}
+
+.Addtask-heading {
+    color: #3659E2;
+}
+
+.Addtask-closebtn {
+    color: #B9C0CB;
+    float: right;
+    border: none;
+    background-color: white;
+}
+
+.modal label {
+    color: #232323;
+    font-weight: 500;
+    margin: 1vh 0.5vw;
+}
+
+.modal input {
+    color: #B9C0CB;
+    border-radius: 8px;
+    border-color: #B9C0CB;
+    padding: 4px 12px 4px 12px;
+}
+
+.Addtask-inputname {
+    color: #B9C0CB;
+    width: 43vw;
+    margin-left: 0.5vw;
+}
+
+.Addtask-dates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Addtask-startDate {
+    width: 20vw;
+}
+
+.Addtask-endDate {
+    width: 19.5vw;
+}
+
+.Addtask-status {
+    width: 44.5vw;
+    color: #B9C0CB;
+    border-radius: 8px;
+    border-color: #B9C0CB;
+    padding: 4px 12px 4px 12px;
+    margin-left: 0.5vw;
+}
+
+.Addtask-footer {
+    margin: 1vh 1vw; 
+    float: right;
+}
+
+.Addtask-cancelbtn {
+    color: #3659E2;
+    background-color: #EBEEFC;
+    border: none;
+    border-radius: 4px;
+    margin-right: 1vw;
+}
+
+.Addtask-taskbtn {
+    background-color: #3659E2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}

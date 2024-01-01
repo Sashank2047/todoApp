@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.MyProjects-Main {
+    width: 79vw;
+}
+
+.MyProjects-Nav {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 0.5vw;
+    margin-bottom: 0.25em;
+    box-shadow: 2px 1px 5px #a8c7faff;
+}
+
+.MyProjects-Nav h1 {
+    padding-left: 2vw;
+    font-weight: 600;
+}
+
+.MyProjects-Tasks-Section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.MyProjects-Tasks {
+    margin-top: 3vh;
+}
+
+.MyProjects-Tasks button {
+    border: none;
+    background-color: white;
+    margin-left: none;
+    margin-bottom: 5vh;
+}
+
+.MyProjects-Tasks li {
+    align-items: center;
+    border: none;
+    border-radius: 2.5vw;
+    padding: 1vh 1.2vw;
+}
+
+.MyProjects-Todo li {
+    background-color: #EBEEFC;
+}
+
+.MyProjects-Todo-Heading {
+    color: #3659E2;
+    font-weight: 400;
+}
+
+.MyProjects-Todo:after {
+    content: "";
+    background-color: #D8E0FD;
+    position: absolute;
+    width: 0.1vw;
+    height: 60vh;
+    left: 40vw;
+}
+
+.MyProjects-InProgress li {
+    background-color: #FDF2FA;
+}
+
+.MyProjects-InProgress-Heading {
+    color: #EE46BC;
+    font-weight: 400;
+}
+
+.MyProjects-InProgress:after {
+    content: "";
+    background-color: #D8E0FD;
+    position: absolute;
+    width: 0.1vw;
+    height: 60vh;
+    left: 60vw;
+}
+
+.MyProjects-InReview  li {
+    background-color: #ECF6FC;
+}
+
+.MyProjects-InReview-Heading {
+    color: #3FA1E3;
+    font-weight: 400;
+}
+
+.MyProjects-InReview:after {
+    content: "";
+    background-color: #D8E0FD;
+    position: absolute;
+    width: 0.1vw;
+    height: 60vh;
+    left: 80vw;
+}
+
+.MyProjects-Completed li {
+    background-color: #E7F8E9;
+}
+
+.MyProjects-Completed-Heading {
+    color: #12BB23;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    .MyProjects-Nav {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        margin-left: 1.5vw;
+        box-shadow: 2px 1px 5px #a8c7faff;
+    }
+    
+    .MyProjects-Nav h1 {
+        padding-left: 2vw;
+        font-weight: 600;
+    }
+    
+    .MyProjects-Tasks {
+        margin-top: 3vh;
+        margin-left: 1.25vw;
+    }
+    
+    .MyProjects-Tasks button {
+        width: 10vw;
+        border: none;
+        background-color: white;
+        margin-left: none;
+        margin-bottom: 2.5vh;
+        font-size: 0.7vw;
+    }
+    
+    .MyProjects-Tasks li {
+        border: none;
+        border-radius: 2.5vw;
+        padding: 1vh 1.2vw;
+    }
+    
+    .MyProjects-Todo:after {
+        content: "";
+        background-color: #D8E0FD;
+        position: absolute;
+        width: 0.1vw;
+        height: 60vh;
+        left: 55vw;
+    }
+    
+    .MyProjects-InProgress:after {
+        content: "";
+        background-color: #D8E0FD;
+        position: absolute;
+        width: 0.1vw;
+        height: 60vh;
+        left: 70vw;
+    }
+    
+    .MyProjects-InReview:after {
+        content: "";
+        background-color: #D8E0FD;
+        position: absolute;
+        width: 0.1vw;
+        height: 60vh;
+        left: 85vw;
+    }
+}

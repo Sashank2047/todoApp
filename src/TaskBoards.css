@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.TaskBoard-Main {
+    color: black;
+    width: 45vh;
+    position: static;
+}
+
+.TaskBoard-Nav {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background-color: white;
+    margin-bottom: 0.25em;
+    box-shadow: 2px 1px 5px #a8c7faff;
+}
+    
+.TaskBoard-Nav img{
+    margin: 0 10px;
+}
+
+.TaskBoard-Nav h1 {
+    font-weight: 600;
+}
+
+.TaskBoard-Projects-Section button {
+    width: 13vw;
+    border: none;
+    border-radius: 12px;
+    margin: 15px 10px;
+    padding: 12px 28px;
+    text-align: center;
+    background-color: #e7e7e7;
+    font-size: 1vw;
+}
+
+.TaskBoard-projects-top {
+    box-shadow: 2px 1px 5px #a8c7faff;
+}
+
+.TaskBoard-projects-bottom {
+    height: 50vh;
+    box-shadow: 2px 1px 5px #a8c7faff;
+}
+
+.TaskBoard-projects-bottom p {
+    padding-top: 15px;
+    color: blue;
+    font-size: 1.5vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .TaskBoard-projects-top {
+        padding: 0.25vh 0.25vw;
+    }
+
+    .TaskBoard-Projects-Section button {
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+        height: 5vh;
+        border: none;
+        border-radius: 12px;
+        margin-left:auto;
+        margin-right: auto;
+        align-items: center;
+        background-color: #e7e7e7;
+        font-size: 1.5vw;
+    }
+}
